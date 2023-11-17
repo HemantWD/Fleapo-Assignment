@@ -93,3 +93,274 @@
   }
 }
 /* ==== Navbar CSS Ends ==== */
+
+/* ==== Main Page CSS ==== */
+.hero {
+  display: flex;
+  background-color: orange;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+.background-container,
+.hero-banner {
+  flex: 1;
+  box-sizing: border-box;
+  max-width: 50%;
+}
+.background-container {
+  text-align: right;
+  padding-right: 20px;
+  position: relative;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-banner,
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-container {
+  align-self: stretch;
+  height: 740px;
+  padding: 100px 90px 40px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 100px;
+  /* flex-direction: row; */
+}
+
+.hero-banner {
+  justify-content: flex-start;
+}
+.hero-banner {
+  align-self: stretch;
+  z-index: 2;
+  text-align: left;
+  font-size: 16px;
+}
+.hero {
+  width: 1600px;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  font-size: 20px;
+  color: #333;
+}
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+}
+.column {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.content-wrapper {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px 12px;
+  backdrop-filter: blur(20px);
+  justify-content: flex-start;
+}
+.benefits {
+  position: relative;
+  line-height: 160%;
+}
+.full-container {
+  /* background-color: aqua; */
+  position: relative;
+  margin: 0;
+  align-self: stretch;
+  font-size: 48px;
+  line-height: 52.8px;
+  font-weight: 800;
+}
+.half-container {
+  color: white;
+}
+.description {
+  width: 658px;
+  height: 78px;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 400;
+}
+.action-section {
+  display: flex;
+  justify-content: flex-start;
+  align-self: stretch;
+  /* flex-direction: row; */
+  align-items: center;
+  gap: 24px;
+  font-size: 20px;
+}
+.member-btn {
+  background-color: #2d2c2b;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  padding: 24px 63px 24px 63px;
+  border-radius: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+.free-btn {
+  position: relative;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+}
+.rating-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rating-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.rate {
+  position: relative;
+  line-height: 20px;
+}
+.vector-icon {
+  position: relative;
+  background-color: transparent;
+  width: 25px;
+  height: 22.73px;
+}
+.reviews {
+  position: relative;
+  font-size: 12px;
+  line-height: 17.92px;
+}
+.trustpilot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.43px;
+}
+.trustpilot-logo {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trustpilot-main {
+  height: 24.59px;
+}
+.trustpilot-name {
+  width: 78.24px;
+  height: 15.87px;
+  top: 8.72px;
+  left: 27.87px;
+}
+.trustpilot-5star {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 106.11px;
+  height: 18.97px;
+}
+.column1 {
+  align-self: stretch;
+  flex: 1;
+}
+.featured-section {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 64px;
+  font-size: 14.4px;
+}
+.featured-in {
+  position: relative;
+  line-height: 25.92px;
+}
+.logo-list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 57px;
+}
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sponsor {
+  position: relative;
+  width: 178.57px;
+  height: 41.37px;
+  object-fit: cover;
+}
+
+/* Respoinsive  */
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .background-container,
+  .hero-banner {
+    max-width: 100%;
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .play-container {
+    position: static;
+    transform: none;
+    text-align: center;
+  }
+}
+/* ==== Main Page Ends ==== */
